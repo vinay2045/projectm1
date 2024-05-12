@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.main{
+    font-family: "Cormorant Garamond", serif;
+    height: 100%;
+    width: 100%;
+
+}
+.title {
+    font-family: "Cedarville Cursive", cursive;
+    text-align: center;
+    font-weight: 400;
+}
+
+.titleimage {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 1vh;
+    overflow: hidden; /* Ensure the image doesn't exceed its parent's dimensions */
+}
+
+.titleimage img {
+    max-width: 100%; /* Ensure the image doesn't exceed the parent's width */
+    max-height: 100%; /* Ensure the image doesn't exceed the parent's height */
+    width: auto; /* Let the browser calculate the width */
+    height: auto; /* Let the browser calculate the height */
+    display: block; /* Ensure the image behaves as a block element */
+    object-fit: cover; /* Make sure the image covers the entire area */
+}
+.maintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+a{
+   
+    color: inherit;
+    text-decoration: none;
+}
+.nav{
+    padding: 5vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-part2{
+    display: flex;
+    gap: 5vw;
+    justify-content: space-between;
+    align-items: center;
+
+}
+h3{
+    font-weight: 400;
+    border: 1.2px solid black;
+    padding: 3px 10px;
+    border-radius: 15px;  
+}
+h4{
+    font-weight: 400;
+    font-size: 1.5rem;
+    
+
+   
+     
+}
+/* Reset button styles */
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    /* Additional styles for button text */
+    color: inherit; /* Inherit text color from parent */
+    font-family: inherit; /* Inherit font family from parent */
+    font-size: inherit; /* Inherit font size from parent */
+    /* You can add more styles as needed */
+}
+.search-container{
+    gap: 8px;
+}
+.search-box{
+    width: 40vw;
+    height: 5vh;
+    border: 1.2px solid black;
+    padding: 3px 10px;
+    border-radius: 15px; 
+  
+    
+}
+.search-container:hover .ri-search-2-line{
+    color: blue;
+
+}
+.modern-wear{
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 0;
+   
+}
+.title-modernwear{
+    align-items: flex-start;
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 3rem;
+    padding-left: 3rem;
+    font-weight: 300;
+   
+}
+h4{
+    align-items:flex-start;
+ 
+    
+    font-size: 1.5rem;
+   
+    font-weight: 100;
+    font-family: "Cormorant Garamond", serif;
+   
+}
+h5{
+    text-align: center;
+ 
+    
+    font-size:3rem;
+   
+    font-weight: 200;
+    font-family: "Cormorant Garamond", serif;
+   
+}
+.product{
+
+    width: 20rem;
+    height: 25rem;
+   
+    border-radius: 2rem;
+    padding: 2rem;
+    overflow: hidden;
+
+}
+.product-part1{
+    height: 50%;
+ 
+
+    
+    
+ 
+ 
+  
+ 
+   
+}
+.product-part1 img{
+    width:100%; /* Ensure the image doesn't exceed the parent's width */
+    height:100%; /* Ensure the image doesn't exceed the parent's height */
+/* Let the browser calculate the height */
+    display: block; /* Ensure the image behaves as a block element */
+    object-fit: cover; 
+
+    border-radius: 1rem;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.1); 
+    
+
+
+}
+.product-part2{
+    height: 50%;
+  
+   padding: 1rem;
+}
+.checkout{
+    margin-top:1rem;
+    gap:10px;
+}
+.checkout button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.checkout button:hover h3 {
+    background-color: yellow;
+}
+
+.product-main{
+    height: 100%;
+    width: 100%;
+}
+.add-product{
+    height: 50%;
+    width: 50%;
+    background-color: yellow;
+    justify-self: center;
+    margin: 0%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+   
+ 
+   
+    transform: translate(50%);
+
+}
+#price{
+    border-radius: 15px;
+    height: 2rem;
+}
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 150px;
+}
+.new-product{
+ 
+ 
+    width: 100%;
+}
+.delete-product:hover{
+    color:rgb(23, 23, 255);
+ 
+
+}
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+}
